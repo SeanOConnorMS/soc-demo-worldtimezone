@@ -36,7 +36,7 @@
 					<region>eu-west-1</region>
 					<workers>1</workers>
 					<workerType>Micro</workerType>
-					<applicationName>worldtimezone-service</applicationName>
+					<applicationName>soc-worldtimezone-service</applicationName>
 					<password>1800Nosoftware!</password>
 					<muleVersion>4.3.0</muleVersion>
 				</cloudHubDeployment>
