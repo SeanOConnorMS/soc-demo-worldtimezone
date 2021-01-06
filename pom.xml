@@ -39,6 +39,7 @@
 					<applicationName>soc-worldtimezone-service</applicationName>
 					<password>1800Nosoftware!</password>
 					<muleVersion>4.3.0</muleVersion>
+					<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
