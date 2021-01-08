@@ -5,7 +5,7 @@ pipeline
    			stage('App Build') {
    				steps{
      				sh 'mvn clean install'
-     				echo "Running ${env.BUILD_ID} on ${env.WORKSPACE}"
+     				echo "SOC - Running ${env.BUILD_ID} on ${env.WORKSPACE}"
    				}
    			}
      
