@@ -2,16 +2,12 @@ pipeline
 {
  	agent any 
 		stages {
-   			stage('App Build') {
+   			stage('App Build & Unit Test') {
    				steps{
      				echo "Running ${env.BUILD_ID} on ${env.WORKSPACE}"
-     				echo "Step 1: App Build"
+     				echo "Step 1: Build"
      				sh 'mvn clean install'
-   				}
-   			}
-     
-     		stage('MUnit Tests') {
-     			steps{
+
      				echo "Step 2: MUnit Tests"
       				sh 'mvn test'
       			}
